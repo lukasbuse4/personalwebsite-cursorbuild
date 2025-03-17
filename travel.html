@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel - Luka Buse</title>
+    <title>Travel</title>
     <style>
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -27,16 +27,29 @@
         text-decoration: underline;
       }
 
-      h2 {
-        font-size: 18px;
+      .continent {
         margin-top: 30px;
-        font-weight: normal;
+        margin-bottom: 15px;
+      }
+
+      .country {
+        margin-bottom: 30px;
+      }
+
+      .country img {
+        max-width: 48%;  /* slightly less than 50% to account for spacing */
+        height: auto;
+        margin: 10px 1%;
+        display: inline-block;
+        vertical-align: top;
       }
 
       .nav {
         position: fixed;
-        top: 40px;
-        right: 40px;
+        right: 20px;
+        top: 20px;
+        width: 150px;
+        background-color: white;
       }
 
       .nav ul {
@@ -78,24 +91,84 @@
         <li><a href="travel.html">Travel</a></li>
       </ul>
     </nav>
-
     <div class="content">
-      <h1>Travel</h1>
+      <h2><strong>Travel</strong></h2>
+      
       <p>
         Welcome to my travel page. Here I share my experiences and observations
-        from various places I've visited.
+        from various places I've visited. I've been to 25% of the world's
+        countries so far. I took off with a backback 15 months total.
       </p>
-      <img
-        src="image/Petra_Travel_LB.jpeg"
-        alt="View of Petra ancient city"
-        style="
-          max-width: 25%;
-          height: auto;
-          margin: 20px 0;
-          border-radius: 4px;
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        "
-      />
+      
+      <p>
+        Tips:
+        <ul>
+          <li>Travel with max a 40 L Bag that can go in the overhead cabin of a plane.</li>
+          <li>Less is more, pounds turn into pain.</li>
+        </ul>
+      </p>
+
+      <div class="continent">
+        <h3><strong>North America</strong></h3>
+        <div class="country">
+          <h4>Mexico</h4>
+          <img src="path/to/mexico-photo.jpg" alt="Mexico">
+          <p>Description of your experience in Mexico...</p>
+        </div>
+        <!-- Add more North American countries -->
+      </div>
+
+      <div class="continent">
+        <h3><strong>Europe</strong></h3>
+        <div class="country">
+          <h4>Croatia</h4>
+          <img src="image/croatia_1.jpeg" alt="Croatia">
+          <img src="image/croatia_2.jpeg" alt="Croatia">
+          <p>I have mixed feeling on Croatia, The Dalmatian coast is very touristy and overrated.
+             The hidden gym of Croatia is the Istra Peninsula. 
+             Home to the rare white truffle, We went truffle hunting with dogs near Motovan, with Miro Tartufi (Great family and business).
+          <n></n> ...</p>
+        </div>
+        
+        <div class="country">
+          <h4>Bosnia Herzegovina</h4>
+          <img src="image/Bonsia and Herzegovina_1.jpeg" alt="Bosnia and Herzegovina">
+          <img src="image/Bonsia and Herzegovina_2.jpeg" alt="Bosnia and Herzegovina">
+          <p> Bosnia was surprisingly a place I'm Happy I visited. The food is world class with a mix of Ottman Cuisine with tons of meat, cheese, and peppers
+            The Bosnian war and genocide in 1992-1995 is a tragic reminder of the horrors of war And under reported. 
+            The city of Mostar is a great quality of life And beautiful town with the Stari Most (Old Bridge).
+          </p>
+        </div>
+
+        <div class="country">
+          <h4>Slovenia</h4>
+          <img src="image/slovenia.JPG" alt="Slovenia">
+          <p>... Slovenia is the most underrated country in Europe. That is a mixture of amazing nature, Not touristy, And Ljubljana is a world class city. 
+            Head down south to unknown Kočevje to bike, horseback ride, and see wild bears. We stayed beautiful ranch Marina for $40 a night.  z
+            I recommend starting in Slovenia and heading east to the Balkans. 
+
+
+          </p>
+        </div>
+      </div>
+
+      <div class="continent">
+        <h3><strong>Asia</strong></h3>
+        <div class="country">
+          <h4>Taiwan</h4>
+          <img src="image/taiwan_1.jpeg" alt="Taiwan">
+          <img src="image/taiwan_2.jpeg" alt="Taiwan">
+          <p> Taiwan is one of my favorite countries. The mix of amazing cities with Taipei, bullet, trains everywhere, and amazing bike culture.
+            World class food markets, And a mix of culture with Japanese and Chinese.
+            Do a bike packing trip down the East Coast from Hualieng to Tiatung.
+            Ding Tai Fung is worth every dollar and the National Museum is incredible. 
+            
+            
+            ...</p>
+        </div>
+      </div>
+
+      <!-- Add more continents as needed -->
     </div>
   </body>
 </html>
