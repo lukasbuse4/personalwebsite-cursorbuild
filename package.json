@@ -1,0 +1,12 @@
+{
+  "name": "personalwebsite-cursorbuild",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "deploy": "wrangler publish",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

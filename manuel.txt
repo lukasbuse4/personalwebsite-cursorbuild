@@ -1,0 +1,13 @@
+# 1. Check status of your changes
+git status
+
+# 2. Add new/modified files
+git add .
+# OR add specific files
+git add blog.html index.html
+
+# 3. Commit changes with a meaningful message
+git commit -m "Updated blog post about investing"
+
+# 4. Push to GitHub
+git push

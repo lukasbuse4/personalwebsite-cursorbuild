@@ -1,0 +1,9 @@
+name: your-domain-name
+workers_dev: true
+main: .
+site:
+  bucket: .
+  include:
+    - "*.html"
+    - "*.css"
+    - "*.js" 
